@@ -71,7 +71,7 @@
                         <TextBlock Text="{Binding Title}" Grid.Column="1" Grid.Row="0" HorizontalAlignment="Left" FontSize="20" TextWrapping="Wrap" FontFamily="Tw Cen MT" ></TextBlock>
                         <TextBlock Text="{Binding Cost, StringFormat={}{0:0} рублей за}" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Left" FontSize="20" FontFamily="Tw Cen MT" ></TextBlock>
                         <TextBlock Text="{Binding DurationInSeconds}" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Right" FontSize="20" FontFamily="Tw Cen MT" ></TextBlock>
-                        <TextBlock Text="{Binding Discount, StringFormat=* скидка {0} % }" Opacity="{Binding Discount}" Margin="5" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Left" FontSize="20" FontFamily="Tw Cen MT" ></TextBlock>
+                        <TextBlock Text="{Binding DiscountIt, StringFormat=* скидка {0} % }" Opacity="{Binding DiscountIt}" Margin="5" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Left" FontSize="20" FontFamily="Tw Cen MT" ></TextBlock>
                         <StackPanel Grid.Column="1" Grid.Row="3" Orientation="Horizontal">
                             <Button Name="EditButton" Content="редактировать" Margin="2" FontFamily="Tw Cen MT" ></Button>
                             <Button Name="DeleteButton" Content="удалить" Margin="2" FontFamily="Tw Cen MT" ></Button>
