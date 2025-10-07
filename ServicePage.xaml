@@ -29,7 +29,7 @@
                     <TextBlock>Все</TextBlock>
                     <TextBlock> от 0 до 5% </TextBlock>
                     <TextBlock> от 5 до 15% </TextBlock>
-                    <TextBlock> от 15 до 30% </TextBlock>
+                    <TextBlock> от 15 до  30% </TextBlock>
                     <TextBlock> от 30 до 70% </TextBlock>
                     <TextBlock> от 70 до 100% </TextBlock>
                 </ComboBox>
