@@ -188,6 +188,7 @@
       <DependentUpon>MihailenkoModel.edmx</DependentUpon>
       <LastGenOutput>MihailenkoModel.cs</LastGenOutput>
     </Content>
+    <Resource Include="res\picture.png" />
     <Resource Include="Услуги автосервиса\Двигатель.png" />
     <Resource Include="Услуги автосервиса\Шиномонтаж.jpg" />
     <Resource Include="Услуги автосервиса\diz.jpg" />

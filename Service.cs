@@ -30,7 +30,14 @@ namespace Familiya_Autoservice
         public int DiscountIt { 
             get
             {
-                return (int)(Discount * 100);
+                if(Discount != null)
+                    return (int)(Discount * 100);
+                else
+                    return 0;
+            }
+            set
+            {
+                Discount = value / 100.0;
             }
         }
         public string Description { get; set; }
